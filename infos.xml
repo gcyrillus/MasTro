@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<title>
+		<![CDATA[<b style="color:tomato;font-family:monospace">MasTro</b>]]>
+	</title>
+	<author>
+		<![CDATA[GC-nomade]]>
+	</author>
+	<version>1</version>
+	<date>30/10/2021</date>
+	<site>https://re7net.com</site>
+	<description>
+		<![CDATA[theme en  base <code>grid</code> layout,  vertical de type <b style="color:tomato;">mas</b>onry ou me<b style="color:tomato;">tro</b> selon le navigateur
+		<br>&nbsp;&nbsp;-&nbsp;Sans police partticulière ni fichier de type reset CSS élargi.
+		<br>&nbsp;&nbsp;-&nbsp;<code>favicon.png</code> et <code>logo.png</code> dans le dossier  <code>img/</code> à remplacer par vos <em>favicon et logo</em>.
+		<br>Modifications fonds et couleurs génériques simplifiées via variables CSS, regroupées et éditables dans la feuille de style.	]]>
+	</description>
+</document>
