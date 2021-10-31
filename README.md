@@ -15,4 +15,4 @@ favicon et logo générique à remplacer par les votres.
   </tr>
  </table>
  
- N'hesitez pas à copier et modifier a vos look, gouts et convenances.
+ N'hesitez pas à copier et modifier a vos looks, gouts et convenances.
