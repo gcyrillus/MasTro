@@ -34,7 +34,7 @@
 		</header>
 
 		<?php $plxShow->artThumbnail(); ?>
-		<?php $plxShow->artChapo(); ?>
+		<div class="clamp"><?php $plxShow->artChapo(); ?></div>
 
 	</article>
 	<?php endwhile; ?>
