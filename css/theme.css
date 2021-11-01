@@ -1,3 +1,11 @@
+/*:///////////////////////////////////////////////////
+// theme MASTRO            layout en  masonry ou metro 
+// PluXml > 5.8.4                            Templates 
+// Author:                     GC-nomade aka Gcyrillus 
+// https://github.com/gcyrillus  /  https://re7net.com 
+///////////////////////////////////////////////////:*/
+
+
 /* css vars */
 @media screen {
   :root {
@@ -22,11 +30,8 @@
     --bg-lighten-005: rgba(255, 255, 255, 0.05);
     --bg-lighten-01: rgba(255, 255, 255, 0.01);
     --bg-lighten-02: rgba(255, 255, 255, 0.02);
-    --home-line-clamp: 3;
+    --home-line-clamp: 3;/* home , no supports for masonry grid */
   }
-}
-
-p.more {
 }
 /* resets */
 @media screen {
@@ -232,6 +237,7 @@ p.more {
     align-items: center;
     margin-block: auto;
   }
+  @supports not (grid-template-rows: masonry) {
 	.clamp > * {/* home.php only */
 	  display: -webkit-box;
 	  -webkit-line-clamp: var(--home-line-clamp);
@@ -239,6 +245,7 @@ p.more {
 	  overflow: hidden;
 	  text-overflow: ellipsis;
 	}
+  }
   @supports (grid-template-rows: masonry) {
     body.mode-home > aside {
       grid-column: 2;
